@@ -70,6 +70,8 @@ h1
 }
 #addrooms
 { 
+
+
 display:inline-block;
 }
 #customerDetails ,#show
@@ -77,19 +79,27 @@ display:inline-block;
 background-color:#FFFFFF;
  height:120px;
  border:thin;
- width:100px;
-    height:100px;
+ width:350px;
+    
     border:1px solid red;
     margin-right:10px;
-    float:left;
+    
 }
 #customerDetails 
 {
-visibility:hidden;
+ padding-top:10px;
+ float:left;
+}
+.Top_header
+{
+position:relative;
+left:1090px;
+display:table-cell;
+color:#333333;
 }
 #showBookings
 {
-
+ 
  background-color::#000000;
 border:thick;
   
@@ -113,13 +123,13 @@ padding-left:20px;
 }
 
 .login-block input#username {
-    background: #fff url('http://i.imgur.com/u0XmBmv.png') 20px top no-repeat;
+    background: #fff url('user.png') 20px top no-repeat;
     background-size: 16px 80px;
 }
  
 
 .login-block input#password {
-    background: #fff url('http://i.imgur.com/Qf83FTt.png') 20px top no-repeat;
+    background: #fff url('user.png') 20px top no-repeat;
     background-size: 16px 80px;
 }
  
