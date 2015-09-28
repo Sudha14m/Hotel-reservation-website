@@ -1,0 +1,180 @@
+ 
+body {
+    background: url('hotel.jpg') no-repeat fixed center center;
+    background-size: cover;
+    font-family: Montserrat;
+}
+#topHeader
+{
+	
+	position:absolute;
+  	text-align:center;
+    background-image: linear-gradient(to bottom, #576066, #e4e8eb);
+ 
+	height: 124px;
+      width: 1290px;
+}
+
+.getvalues
+{
+padding-left:20px;
+ 
+
+}
+.logo {
+    width: 213px;
+    height: 36px;
+    
+}
+
+.login-block {
+    width: 320px;
+    padding: 20px;
+	   color: #990000;
+    background: #fff;
+    border-radius: 5px;
+ 
+    margin: 0 auto;
+}
+
+.login-block-admin {
+    width: 600px;
+    padding: 20px;
+	   color: #990000;
+    background: #fff;
+    border-radius: 5px;
+ 
+    margin: 0 auto;
+}
+.login-block-admin h1 {
+    text-align: center;
+     color: #990000;
+    font-size: 18px;
+	
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+h1
+{
+  color: #990000;
+}3
+.login-block h1 {
+    text-align: center;
+     color: #990000;
+    font-size: 18px;
+	
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+#addrooms
+{ 
+display:inline-block;
+}
+#customerDetails ,#show
+{
+background-color:#FFFFFF;
+ height:120px;
+ border:thin;
+ width:100px;
+    height:100px;
+    border:1px solid red;
+    margin-right:10px;
+    float:left;
+}
+#customerDetails 
+{
+visibility:hidden;
+}
+#showBookings
+{
+
+ background-color::#000000;
+border:thick;
+  
+
+}
+#inputbox
+{
+padding-left:20px;
+}
+.login-block input {
+    width: 100%;
+    height: 42px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-family: Montserrat;
+    padding: 0 20px 0 50px;
+    outline: none;
+}
+
+.login-block input#username {
+    background: #fff url('http://i.imgur.com/u0XmBmv.png') 20px top no-repeat;
+    background-size: 16px 80px;
+}
+ 
+
+.login-block input#password {
+    background: #fff url('http://i.imgur.com/Qf83FTt.png') 20px top no-repeat;
+    background-size: 16px 80px;
+}
+ 
+ 
+ 
+#mainlogo
+{
+font-family:"Times New Roman", Times, serif;
+text-align:center;
+
+
+}
+#buttons
+{
+padding-left:915px; 
+}
+
+#button
+{
+   font-family: Georgia;
+     color: #990000;
+     background-image: linear-gradient(to bottom, #f06c7e, #ffffff);
+}
+
+#button:hover
+{
+  color: #990000;
+  font-family: Georgia;
+  background-image: linear-gradient(to bottom, #ffffff, #e8767c);
+}
+.btn {
+  background: #f06c7e;
+  background-image: -webkit-linear-gradient(top, #f06c7e, #ffffff);
+  background-image: -moz-linear-gradient(top, #f06c7e, #ffffff);
+  background-image: -ms-linear-gradient(top, #f06c7e, #ffffff);
+  background-image: -o-linear-gradient(top, #f06c7e, #ffffff);
+  background-image: linear-gradient(to bottom, #f06c7e, #ffffff);
+  -webkit-border-radius: 11;
+  -moz-border-radius: 11;
+  border-radius: 11px;
+  font-family: Georgia;
+  color: #990000;
+  font-size: 20px;
+  padding: 6px 17px 9px 15px;
+  border: solid #33a1e6 0px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #ffffff;
+    color: #990000;
+  background-image: -webkit-linear-gradient(top, #ffffff, #e8767c);
+  background-image: -moz-linear-gradient(top, #ffffff, #e8767c);
+  background-image: -ms-linear-gradient(top, #ffffff, #e8767c);
+  background-image: -o-linear-gradient(top, #ffffff, #e8767c);
+  background-image: linear-gradient(to bottom, #ffffff, #e8767c);
+  text-decoration: none;
+}
