@@ -15,6 +15,14 @@ body {
       width: 1290px;
 }
 
+.status
+{ 
+	 border-radius: 5px;
+	 background:#CCCCCC;
+	    opacity:0.6; 
+	
+}
+
 .getvalues
 {
 padding-left:20px;
@@ -23,8 +31,16 @@ padding-left:20px;
 }
 .logo {
     width: 213px;
-    height: 36px;
-    
+    height: 40px;
+	color:#990000;
+	 background:#FFFFFF;
+     opacity:0.9; 
+	 text-align:center;
+    border-radius: 19px;
+	font-size:17px;
+    margin: 0 auto;
+	 
+	 
 }
 
 .login-block {
@@ -32,17 +48,20 @@ padding-left:20px;
     padding: 20px;
 	   color: #990000;
     background: #fff;
-    border-radius: 5px;
- 
+   
+ background-color:#FFFFFF;
+   opacity:0.9; 
+    border-radius: 19px;
     margin: 0 auto;
 }
 
 .login-block-admin {
     width: 600px;
     padding: 20px;
+	opacity:0.9;
 	   color: #990000;
     background: #fff;
-    border-radius: 5px;
+    border-radius: 18px;
  
     margin: 0 auto;
 }
@@ -68,28 +87,24 @@ h1
     margin-top: 0;
     margin-bottom: 20px;
 }
-#addrooms
+.addrooms
 { 
 
-
-display:inline-block;
+ display:inline-block;
 }
 #customerDetails ,#show
 {
 background-color:#FFFFFF;
- height:120px;
+ height:320px;
  border:thin;
- width:350px;
-    
+ width:250px;
+    padding-left:30px;
     border:1px solid red;
     margin-right:10px;
+	float:left;
     
 }
-#customerDetails 
-{
- padding-top:10px;
- float:left;
-}
+ 
 .Top_header
 {
 position:relative;
@@ -97,10 +112,10 @@ left:1090px;
 display:table-cell;
 color:#333333;
 }
-#showBookings
+.showBookings
 {
  
- background-color::#000000;
+ background-color:#000000;
 border:thick;
   
 
@@ -129,13 +144,13 @@ padding-left:20px;
  
 
 .login-block input#password {
-    background: #fff url('user.png') 20px top no-repeat;
+    background: #fff url('pass.png') 20px top no-repeat;
     background-size: 16px 80px;
 }
  
  
  
-#mainlogo
+#main
 {
 font-family:"Times New Roman", Times, serif;
 text-align:center;
@@ -149,26 +164,33 @@ padding-left:915px;
 
 #button
 {
+opacity:0.9;
    font-family: Georgia;
      color: #990000;
+	 padding: 2px 15px 6px 10px;
      background-image: linear-gradient(to bottom, #f06c7e, #ffffff);
+	   border-radius: 8px;
+	     text-decoration: none;
+		   
 }
 
 #button:hover
 {
   color: #990000;
+  opacity:0.9;
   font-family: Georgia;
   background-image: linear-gradient(to bottom, #ffffff, #e8767c);
+    border-radius: 8px;
+		 padding: 2px 15px 6px 10px;
+ 
+	  text-decoration: none;
 }
 .btn {
+opacity:0.9;
   background: #f06c7e;
-  background-image: -webkit-linear-gradient(top, #f06c7e, #ffffff);
-  background-image: -moz-linear-gradient(top, #f06c7e, #ffffff);
-  background-image: -ms-linear-gradient(top, #f06c7e, #ffffff);
-  background-image: -o-linear-gradient(top, #f06c7e, #ffffff);
+ 
   background-image: linear-gradient(to bottom, #f06c7e, #ffffff);
-  -webkit-border-radius: 11;
-  -moz-border-radius: 11;
+  
   border-radius: 11px;
   font-family: Georgia;
   color: #990000;
@@ -179,12 +201,10 @@ padding-left:915px;
 }
 
 .btn:hover {
+opacity:0.9;
   background: #ffffff;
     color: #990000;
-  background-image: -webkit-linear-gradient(top, #ffffff, #e8767c);
-  background-image: -moz-linear-gradient(top, #ffffff, #e8767c);
-  background-image: -ms-linear-gradient(top, #ffffff, #e8767c);
-  background-image: -o-linear-gradient(top, #ffffff, #e8767c);
+ 
   background-image: linear-gradient(to bottom, #ffffff, #e8767c);
   text-decoration: none;
 }
