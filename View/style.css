@@ -2,7 +2,7 @@
 body {
     background: url('hotel.jpg') no-repeat fixed center center;
     background-size: cover;
-    font-family: Montserrat;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
 }
 #topHeader
 {
@@ -132,7 +132,7 @@ padding-left:20px;
     border: 1px solid #ccc;
     margin-bottom: 20px;
     font-size: 14px;
-    font-family: Montserrat;
+        font-family: Geneva, Arial, Helvetica, sans-serif;
     padding: 0 20px 0 50px;
     outline: none;
 }
@@ -143,16 +143,20 @@ padding-left:20px;
 }
  
 
-.login-block input#password {
+.login-block input#password  {
     background: #fff url('pass.png') 20px top no-repeat;
     background-size: 16px 80px;
 }
  
- 
- 
+ .login-block input#email
+ {
+  background: #fff url('email.jpg') 20px top no-repeat;
+  background-position:left;
+    background-size: 15px 15px;
+ }
 #main
 {
-font-family:"Times New Roman", Times, serif;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
 text-align:center;
 
 
@@ -165,7 +169,7 @@ padding-left:915px;
 #button
 {
 opacity:0.9;
-   font-family: Georgia;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
      color: #990000;
 	 padding: 2px 15px 6px 10px;
      background-image: linear-gradient(to bottom, #f06c7e, #ffffff);
@@ -178,7 +182,7 @@ opacity:0.9;
 {
   color: #990000;
   opacity:0.9;
-  font-family: Georgia;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
   background-image: linear-gradient(to bottom, #ffffff, #e8767c);
     border-radius: 8px;
 		 padding: 2px 15px 6px 10px;
@@ -192,7 +196,7 @@ opacity:0.9;
   background-image: linear-gradient(to bottom, #f06c7e, #ffffff);
   
   border-radius: 11px;
-  font-family: Georgia;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
   color: #990000;
   font-size: 20px;
   padding: 6px 17px 9px 15px;
