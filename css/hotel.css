@@ -22,7 +22,8 @@ h6 {
     letter-spacing: 1px;
 }
 
-p {
+
+p { 
     font-size: 1.25em;
     line-height: 1.6;
     color: #000;
@@ -182,6 +183,30 @@ footer p {
         margin: 0 auto;
         table-layout: fixed;
         font-size: 1.25em;
+        
+    }
+    #keepHidden{
+    display: none;
+    
+    }
+    #keepHidden1{
+    display: none;
+    
+    }
+    .positionCenter
+    {
+    margin: auto;
+    width:  30%;
+    padding: 10px;
+    }
+    
+    #payment_Status_success, #payment_Status_failure, #status
+    {
+	    display:none;
+	    margin: auto;
+	    width:  55%;
+    	padding: 10px;
+	    
     }
 }
 
